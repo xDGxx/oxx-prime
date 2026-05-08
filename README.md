@@ -1,16 +1,104 @@
-# React + Vite
+# OXX Prime Academia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page moderna e responsiva desenvolvida para a **OXX Prime Academia**, focada em conversão, identidade visual forte e experiência premium para academias de alto impacto.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+- React
+- Vite
+- JavaScript (JSX)
+- CSS Inline + CSS Global
+- Google Fonts
+- Responsividade Mobile First
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎨 Conceito Visual
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O projeto foi construído com foco em:
+
+- Visual premium e futurista
+- Paleta monocromática com destaque vermelho
+- Hero section cinematográfica
+- Estética dark/gym
+- Navegação fluida
+- Forte apelo visual para conversão
+
+---
+
+## 📱 Funcionalidades
+
+### ✅ Navbar Responsiva
+- Navegação suave entre seções
+- Menu mobile hambúrguer
+- CTA direto para WhatsApp
+
+### ✅ Hero Section
+- Banner com overlay gradiente
+- Chamada principal de impacto
+- Botões de ação
+- Estatísticas da academia
+
+### ✅ Sessão Sobre
+- Apresentação institucional
+- Cards de diferenciais
+- Estrutura premium
+
+### ✅ Sessão de Planos
+- Cards estilizados
+- Destaque para plano principal
+- Integração visual com Wellhub e Totalpass
+
+### ✅ Sessão de Modalidades
+- Grid de aulas
+- Grade semanal completa
+- Hover animations
+
+### ✅ Sessão de Horários
+- Horários organizados
+- Formas de pagamento
+- Cards informativos
+
+### ✅ Sessão CTA
+- Conversão para WhatsApp
+- Visual forte e moderno
+
+### ✅ Localização
+- Google Maps Embed
+- Informações da unidade
+
+### ✅ Footer
+- Navegação rápida
+- Contatos
+- Instagram integrado
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash
+oxxprime-site/
+│
+├── public/
+│   └── oxx-logo.png
+│
+├── src/
+│   ├── assets/
+│   │   ├── banner.png
+│   │   ├── instagram.png
+│   │   ├── whatsapp.png
+│   │   ├── wellhub.png
+│   │   ├── totalpass.png
+│   │   ├── pix.png
+│   │   ├── cartao.png
+│   │   └── dinheiro.png
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+└── vite.config.js
