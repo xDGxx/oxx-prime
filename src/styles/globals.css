@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+@media(max-width:900px){
+  .map-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+.map-grid{
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+}
+
+@media(max-width:900px){
+  .map-grid{
+    grid-template-columns:1fr !important;
+  }
+}
+body {
+  background: black;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  overflow-x: hidden;
+}
+
+.title-font {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.condensed-font {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 999px;
+}
