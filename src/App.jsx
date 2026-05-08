@@ -9,7 +9,7 @@ import pixIcon from "./assets/pix.png";
 import cartaoIcon from "./assets/cartao.png";
 import dinheiroIcon from "./assets/dinheiro.png";
 // ⚠️ TROQUE pelo número real do WhatsApp da academia (só números, com DDI+DDD)
-const WHATSAPP_URL = `https://wa.me/5511997192294?text=${encodeURIComponent("Olá, gostaria de ter informações sobre a Oxx")}`;
+const WHATSAPP_URL = `https://wa.me/5511921009989?text=${encodeURIComponent("Olá, gostaria de ter informações sobre a Oxx")}`;
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
